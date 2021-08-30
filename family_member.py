@@ -1,5 +1,4 @@
 my_family = []
-print("Start application")
 my_family.append(input("What`s your name: ").title()) #Call name
 
 select = input("Have you got family? (Y/N)").upper()  #Select family
