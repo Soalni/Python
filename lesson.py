@@ -18,3 +18,13 @@ ints = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 for single in ints:
     print(single ** 5)
+
+
+for random in range(1, 10):  #Перечисление чисел
+    print(random **5)
+
+randoms = list(range(1, 10))
+
+print(randoms)
+for random in randoms:
+    print(random ** 2)
