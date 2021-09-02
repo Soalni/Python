@@ -28,3 +28,17 @@ randoms = list(range(1, 10))
 print(randoms)
 for random in randoms:
     print(random ** 2)
+
+randoms = [0]
+randoms = list(range(1, 10))
+for integer in randoms:
+    print(str(integer).replace("9", "1"))
+print(min(randoms))
+print(max(randoms))
+print(randoms[2] + randoms[4])
+
+squares = [integer ** 4 for integer in range(1, 10)]
+print(squares)
+
+x = 3
+print(str(x))
