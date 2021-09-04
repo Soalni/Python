@@ -42,3 +42,14 @@ print(squares)
 
 x = 3
 print(str(x))
+
+players = ['charles', 'martina', 'michael', 'florence', 'eli']
+games = players[:]
+print(players[:3])
+players.append("ken")
+print(games)
+
+dimensions = (200, 50) #TUPLE
+print(dimensions[0])
+dimensions = (100, 20)
+print(dimensions[0])
