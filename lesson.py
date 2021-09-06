@@ -53,3 +53,10 @@ dimensions = (200, 50) #TUPLE
 print(dimensions[0])
 dimensions = (100, 20)
 print(dimensions[0])
+
+
+for player in players:
+    if player.lower() == "martina":
+        print(player)
+    else:
+        print("No anyone with this name")
