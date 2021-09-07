@@ -53,10 +53,19 @@ dimensions = (200, 50) #TUPLE
 print(dimensions[0])
 dimensions = (100, 20)
 print(dimensions[0])
+print("\n")
+march = players.index("martina")
+print(players[march])
 
 
-for player in players:
-    if player.lower() == "martina":
-        print(player)
-    else:
-        print("No anyone with this name")
+#for player in players:
+#    if player.lower() == "martina":
+#        print(player)
+#    else:
+#        print("No anyone with this name")
+
+
+if input("What is your name: ").lower() == "sasha"or input("Your PIN: ") == "4881":
+    print("Hello Sasha")
+else:
+    print("Where is Sasha?")
