@@ -65,7 +65,14 @@ print(players[march])
 #        print("No anyone with this name")
 
 
-if input("What is your name: ").lower() == "sasha"or input("Your PIN: ") == "4881":
-    print("Hello Sasha")
+#if input("What is your name: ").lower() == "sasha"or input("Your #PIN: ") == "4881":
+#    print("Hello Sasha")
+#else:
+#    print("Where is Sasha?")
+name = input("What is your name: ").lower()
+if name in players:
+    print("Hello " + name)
 else:
-    print("Where is Sasha?")
+    print("There is no one with this name")
+
+    
